@@ -203,7 +203,7 @@ input[type="submit"]:hover {
     padding: 100px;
     background-color: antiquewhite; */
   background-color: #ddffdd;
-  border-right: 200px solid #04aa6d;
+  /* border-right: 200px solid #04aa6d; */
   padding: 20px;
   height: 20px;
   /* width: 10px; */
@@ -213,6 +213,15 @@ input[type="submit"]:hover {
 .note-text {
   display: flex;
   justify-content: space-between;
+}
+.green {
+  background-color: #04aa6d;
+  padding: 1px;
+  font-size: medium;
+  font-weight: 600px;
+  border-radius: 10px;
+  border-width: 70px;
+  border-right: 60px;
 }
 
 .footer {
