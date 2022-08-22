@@ -10,6 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0%;
     margin: 0%;
+    
 }
 
 .button{
@@ -18,7 +19,7 @@ body {
     background-color: rgb(199, 18, 18);
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    
     margin-top: 10px;
     
 
@@ -30,7 +31,8 @@ body {
 
 .menu-bar {
         text-align: center;
-         font-size: 25px;
+        font-size: 25px;
+        font-weight: 500;
          
          
         background-image: url(/images/donation13.jpg);
@@ -42,4 +44,75 @@ body {
 .menu-text{
     padding: 80px;
     
+}
+
+.donate-text {
+    text-align: center;
+    padding: 50px;
+    margin-top: 60px;
+}
+
+.box-conatiner{
+    display: flex;
+    text-align: auto;
+    font-size: 25px;
+    font-weight: 1000;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+    
+}
+
+.box { 
+ background-color: gainsboro;
+  width: 60px;
+  padding: 40px;
+  margin: 20px;
+  height: 20px;
+  border-radius: 2px;
+   
+  }
+  
+  .box:hover {
+    box-shadow: 0 8px 16px 0 rgba(139, 35, 35, 0.2);
+  }
+
+  .orange {
+    background-color: rgb(189, 76, 76);
+    border: 3px solid  rgb(92, 28, 28);
+  }
+
+  .border{
+    /* border: 2px solid red;
+    width: 800px;
+    margin-top:19px; */
+    margin: auto;
+    width: 50%;
+    border: 2px solid gray;
+  
+    
+  }
+
+  .center{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500px;
+  }
+
+
+  .button-center{
+    margin: 0 auto;
+    display: block;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: rgb(199, 18, 18);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+  
+  
+}
+.button-center:hover {
+    background-color: blue;
+    cursor: pointer;
 }
