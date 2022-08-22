@@ -45,6 +45,8 @@ body {
   text-align: center;
   padding: 50px;
   margin-top: 60px;
+  font-size: 20px;
+  font-weight: 500px;
 }
 
 .box-conatiner {
@@ -106,9 +108,9 @@ body {
 
 .donate-text-section {
   text-align: center;
-  font-size: medium;
+  font-size: 20px;
   font-weight: 500px;
-  padding: 80px;
+  padding: 90px;
 }
 
 .card {
